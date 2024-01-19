@@ -1,0 +1,103 @@
+.buttonContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: max-content;
+    width: 80px;
+}
+
+.mainSection{
+    box-sizing: border-box;
+    position: relative;
+    width: 800px;
+    height: max-content;
+    margin: 20px calc((100% - (800px + 300px + 150px))/2);
+    padding: 20px;
+}
+
+.level1 {
+    width: 800px;
+    height: 56px;
+    background-color: rgb(237, 203, 203);
+    color: rgb(86, 25, 4);
+    padding: 13px 20px 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-size: 25px;
+    line-height: 25px;
+    font-weight: 600;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.level2 {
+    width: 750px;
+    height: 50px;
+    margin: 10px 0px 10px 50px;
+    background-color: rgb(244, 223, 223);
+    color: rgb(86, 25, 4);
+    padding: 10px 20px 0px;
+    box-sizing: border-box;
+    font-size: 23px;
+    line-height: 27px;
+    font-weight: 600;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.level3 {
+    width: 700px;
+    height: 50px;
+    margin: 10px 0px 10px 100px;
+    background-color: rgb(247, 238, 238);
+    color: rgb(86, 25, 4);
+    padding: 10px 20px 0px;
+    box-sizing: border-box;
+    font-size: 23px;
+    line-height: 27px;
+    font-weight: 600;
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.level4 {
+    width: 650px;
+    height: 50px;
+    margin: 10px 0px 10px 150px;
+    background-color: rgb(249, 243, 243);
+    border: solid 1px rgb(247, 238, 238);
+    color: rgb(86, 25, 4);
+    padding: 10px 20px 0px;
+    box-sizing: border-box;
+    font-size: 23px;
+    line-height: 27px;
+    font-weight: 600;
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.level5 {
+    width: 600px;
+    height: 50px;
+    margin: 10px 0px 10px 200px;
+    background-color: rgb(251, 249, 249);
+    border: solid 1px rgb(249, 243, 243);
+    color: rgb(86, 25, 4);
+    padding: 10px 20px 0px;
+    box-sizing: border-box;
+    font-size: 23px;
+    line-height: 27px;
+    font-weight: 600;
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}

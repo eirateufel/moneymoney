@@ -1,0 +1,10 @@
+.mainSection {
+    height: max-content;
+    width: 98vw;
+    display: flex;
+    flex-direction: row;
+}
+
+.page {
+    width: 100%;
+}

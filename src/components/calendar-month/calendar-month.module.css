@@ -1,0 +1,35 @@
+.mainSection {
+    width: calc(7 * 60px);
+    height: max-content;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.monthName {
+    font-size: 40px;
+    letter-spacing: 6px;
+    font-weight: 500;
+    color: rgb(63, 68, 107);
+}
+
+.wrapper {
+    border: none;
+    background-color: rgb(240, 242, 249);
+    background: radial-gradient(circle at 70% 3%, rgb(240, 242, 249) 0%, rgb(240, 242, 249) 3%, rgb(246, 249, 61) 3%, rgb(246, 249, 61) 8%, rgb(240, 242, 249) 8%);
+    height: calc(7 * 60px);
+    width: calc(7 * 60px);
+    padding: 25px;
+
+    border-radius: 50%;
+}
+
+.wrapper_this {
+    box-sizing: border-box;
+    background-color: rgb(222, 227, 245);
+    height: calc(7 * 60px + 50px);
+    width: calc(7 * 60px + 50px);
+    padding: 25px;
+
+    border-radius: 50%;
+}

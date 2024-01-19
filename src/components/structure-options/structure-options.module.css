@@ -1,0 +1,8 @@
+.mainSection {
+    background-color: white;
+    border: solid black 1px;
+    height: 600px;
+    width: 600px;
+    position: absolute;
+    top: 200px
+}

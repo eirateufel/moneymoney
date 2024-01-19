@@ -1,0 +1,32 @@
+.day {
+    box-sizing: border-box;
+    width: 60px;
+    height: 60px;
+    background-color: rgb(247, 230, 230);
+    border: 3px solid rgb(253, 245, 245);
+    color: rgb(63, 68, 107);
+    font-size: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.empty {
+    box-sizing: border-box;
+    width: 60px;
+    height: 60px;
+}
+
+.today {
+    box-sizing: border-box;
+    width: 60px;
+    height: 60px;
+    background-color: rgb(235, 179, 179);
+    border: 3px solid rgb(225, 182, 182);
+    color: white;
+    font-size: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
